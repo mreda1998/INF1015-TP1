@@ -6,6 +6,13 @@
 #include <vector>
 using namespace std;
 
+struct Dictionnaire
+{
+    string mot;
+    string natureGenre;
+    string definition;
+};
+
 int main()
 {
     fstream fichierDictionnaire;
