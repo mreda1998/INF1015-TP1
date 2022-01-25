@@ -6,6 +6,8 @@
 #include <vector>
 using namespace std;
 
+string lireLigne();
+
 struct Dictionnaire
 {
     string mot;
